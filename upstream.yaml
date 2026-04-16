@@ -1,0 +1,22 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "repository"
+  source: https://github.com/pulp-platform/common_cells
+  commit: b74f0ad63600762ef101cf1d3365d19dfbb3123b
+  extracted_at: "2026-04-16T04:22:21Z"
+import:
+  rtl:
+    - path: "src"
+      map_to: "rtl"
+    - path: "include"
+      map_to: "include"
+  license:
+    - path: "LICENSE"
+  readme:
+    - path: "README.md"
+license:
+  spdx: SHL-0.51
+  notes: |
+    Solderpad Hardware License 0.51 — Apache-2.0 opt-in clause.
+    Compatible with Vyges Apache-2.0 catalog policy.
+  file: LICENSE
